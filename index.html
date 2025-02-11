@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Be My Valentine?</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <div id="gifContainer">
+      <!-- The GIF/sticker will appear here both before and after YES is clicked -->
+      <img id="heartGif" src="img/R.gif" class="hidden" alt="Pumping heart" />
+    </div>
+    <h1 id="question">Will You Be My Valentine? 🌹❤️</h1>
+    <div class="buttons">
+      <button id="yes-btn">YES</button>
+      <button id="no-btn">NO!</button>
+    </div>
+    <p id="message"></p>
+  </div>
+
+  <!-- Fireworks Effect (appears when YES is clicked without any NO first) -->
+  <div id="fireworks" class="hidden"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
